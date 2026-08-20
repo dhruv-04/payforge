@@ -27,7 +27,8 @@ export class GatewayService {
         else message = "Transaction has failed!";
         return {
             "message": message,
-            "status": status
+            "status": status,
+            "transactionId": "NIL"
         };
     }
 }
